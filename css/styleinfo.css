@@ -1,0 +1,24 @@
+
+#video{
+   margin-left: 30%;
+   margin-top: 5%;
+}
+#title2{
+    text-align: center;
+}
+
+.infogame{
+    text-align: center;
+    width: 800px;
+    margin-top: 40px;
+    margin-left: 20%;
+}
+.infogame  a{
+    text-decoration: none;
+    color: rgb(225, 167, 21);
+    font-size: 25px;
+    
+}
+.infogame a:hover{
+    background-color: black;
+}

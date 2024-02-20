@@ -1,0 +1,93 @@
+
+.contenedor{
+    width: 1424px;
+    height: 1800px;
+    margin-left: 0;
+    padding: 5px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+   /*  justify-content: flex-start; */
+    
+    background-color: rgb(21, 21, 21);
+   }
+.contenedor2{
+   display: grid;
+   grid: auto-flow/ 1fr 1fr 1fr 1fr;
+    box-shadow: 0 0 10px rgba(236, 50, 50, 0.8);
+    padding: 0;
+    /* background-image: linear-gradient(to right top, #217966, #197c60, #187e58, #1c804e, #258243, #3d8b3f, #52933b, #679b36, #8bab3c, #b0bb44, #d5ca50, #fbd95f); */
+    background-image: linear-gradient(to right bottom, #a9cfc6, #a8d3c5, #a8d7c2, #aadbbf, #addeba, #a3dab9, #99d6b8, #8fd2b8, #7ac5bb, #6eb7bc, #6aa7b8, #6b98b0); 
+  } 
+
+.contenedor2>div>img{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    
+}
+
+ .card,.card2,.card3,.card4,.card5,.card6,.card7,.card8,.card9{
+     width: 250px;
+     height: 350px;
+     margin: 45px;
+     border-radius: 6px;
+     overflow: hidden;
+     background: #fff;
+     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+     cursor: default;
+     transition: all 400ms ease;
+     text-align: center;
+     font-family: Comic Sans MS; 
+     font-size: 20px;
+}
+#link > a{
+    text-decoration: none;
+    color: rgb(13, 83, 167);
+    font-family: Comic Sans MS; 
+     font-size: 20px;
+}
+
+
+
+
+.card:hover{
+    box-shadow:  5px 5px 20px rgba(0, 0, 0, 0.4) ;
+    transform: translateY(-3%);
+}
+.card2:hover{
+    box-shadow:  5px 5px 20px rgba(0, 0, 0, 0.4) ;
+    transform: translateY(-3%);
+}
+.card3:hover{
+    box-shadow:  5px 5px 20px rgba(0, 0, 0, 0.4) ;
+    transform: translateY(-3%);
+}
+.card4:hover{
+    box-shadow:  5px 5px 20px rgba(0, 0, 0, 0.4) ;
+    transform: translateY(-3%);
+}
+.card5:hover{
+    box-shadow:  5px 5px 20px rgba(0, 0, 0, 0.4) ;
+    transform: translateY(-3%);
+}
+.card6:hover{
+    box-shadow:  5px 5px 20px rgba(0, 0, 0, 0.4) ;
+    transform: translateY(-3%);
+}
+.card7:hover{
+    box-shadow:  5px 5px 20px rgba(0, 0, 0, 0.4) ;
+    transform: translateY(-3%);
+}
+.card8:hover{
+    box-shadow:  5px 5px 20px rgba(0, 0, 0, 0.4) ;
+    transform: translateY(-3%);
+}
+.card9:hover{
+    box-shadow:  5px 5px 20px rgba(0, 0, 0, 0.4) ;
+    transform: translateY(-3%);
+}
+
+
